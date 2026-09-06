@@ -1,10 +1,1 @@
-const observer = new IntersectionObserver((entries)=>{
-  entries.forEach((entry)=>{if(entry.isIntersecting) entry.target.classList.add('visible')})
-},{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-
-const heroLogo=document.querySelector('.hero-logo');
-window.addEventListener('scroll',()=>{
-  const y=window.scrollY;
-  if(heroLogo && y<window.innerHeight){heroLogo.style.transform=`translateY(${y*.08}px) scale(${1-y*.00008})`;}
-});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(x=>io.observe(x));const hc=document.querySelector('.hero-center');addEventListener('scroll',()=>{if(hc&&scrollY<innerHeight)hc.style.transform=`translateY(${scrollY*.07}px) scale(${1-scrollY*.00007})`},{passive:true});
