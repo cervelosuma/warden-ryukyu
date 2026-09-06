@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 660" role="img" aria-labelledby="title">
+<title>Warden Ryukyu mark</title>
+<g fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M42 42 H478 V478 H42 Z" stroke-dasharray="82 16 54 10"/>
+  <path d="M102 125 Q145 80 197 110 M323 110 Q375 80 418 125"/>
+  <path d="M112 175 Q160 135 205 170 M315 170 Q360 135 408 175"/>
+  <path d="M131 208 Q165 186 199 208 M321 208 Q355 186 389 208"/>
+  <circle cx="166" cy="213" r="24"/><circle cx="354" cy="213" r="24"/>
+  <circle cx="166" cy="213" r="6" fill="#fff"/><circle cx="354" cy="213" r="6" fill="#fff"/>
+  <path d="M236 225 Q260 204 284 225 Q272 246 260 252 Q248 246 236 225"/>
+  <path d="M145 285 Q205 255 260 282 Q315 255 375 285"/>
+  <path d="M136 322 Q170 290 206 320 Q224 337 260 340 Q296 337 314 320 Q350 290 384 322"/>
+  <path d="M163 334 Q201 374 260 374 Q319 374 357 334"/>
+  <path d="M185 366 L201 408 L221 377 M299 377 L319 408 L335 366"/>
+  <path d="M85 255 Q58 282 85 312 M435 255 Q462 282 435 312"/>
+  <path d="M98 342 Q70 367 101 392 M422 342 Q450 367 419 392"/>
+</g>
+<text x="260" y="552" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" text-anchor="middle" letter-spacing="6">W∆RDEN</text>
+<text x="260" y="616" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="middle" letter-spacing="12">RYUKYU</text>
+</svg>
